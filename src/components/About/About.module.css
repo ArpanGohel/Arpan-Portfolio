@@ -57,13 +57,21 @@
   background-size: 100% 100%;
 }
 
+.aboutItem h2 {
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
 .aboutItem h3 {
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 300;
+  letter-spacing: 0.8px;
 }
 
 .aboutItem p {
   font-size: 25px;
+  letter-spacing: 0.5px;
 }
 
 @media screen and (max-width: 830px) {

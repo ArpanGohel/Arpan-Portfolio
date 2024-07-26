@@ -4,6 +4,12 @@ import styles from "./Skillset.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
+//import Pdf from "../../../assets/history/VerizonCertificate.pdf";
+//import Pdf from "../../../assets/history/JPMorganCertificate.pdf"
+//import Pdf from "../../../assets/history/DatacomCertificate.pdf"
+
+
+
 
 export const Skillset = () => {
   return (
@@ -33,7 +39,8 @@ export const Skillset = () => {
                 <div className={styles.historyItemDetails}>
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate}`}</p>
-                  <a href= {`${historyItem.certificate}`}>View Certificate</a>
+                  
+                  
                   <ul>
                     {historyItem.experiences.map((experience, id) => {
                       return <li key={id}>{experience}</li>;
