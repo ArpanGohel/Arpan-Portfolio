@@ -14,9 +14,9 @@ export const Hero = () => {
           Ready to Contribute and Grow in a Dynamic Team Environment
            by translating my Academic Excellence into Real-World Solutions.
         </p>
-        <a href="mailto:gohel.arpan@gmail.com" className={styles.contactBtn}>
-          Email to Hire Me
-        </a>
+       {/*<a href="mailto:gohel.arpan@gmail.com" className={styles.contactBtn}>
+          Get in Touch
+        </a>*/}
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}
