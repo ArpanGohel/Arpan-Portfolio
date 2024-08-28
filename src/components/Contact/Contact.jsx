@@ -25,7 +25,7 @@ export const Contact = () => {
         <h2>Let's Connect</h2>
         <p>Feel free to reach out!</p>
       </div>
-        <div>
+      <div>
         <form className={styles.contactform} ref={form} onSubmit={sendEmail}>
           <input type="text" className={styles.name} placeholder="Your Name" name="from_name" />
           <input type="email" className={styles.email} placeholder="Your Email" name="from_email"/>
@@ -33,6 +33,7 @@ export const Contact = () => {
           <button  type="submit" value="send" className={styles.submitBtn}>Submit</button>
         </form>
       </div>
+     
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
@@ -49,7 +50,11 @@ export const Contact = () => {
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
           <a href="https://github.com/ArpanGohel">GitHub</a>
         </li>
-      </ul>
+      </ul>  
+      <br></br>
+      <div className={styles.text}>
+      <h3>Copyright &copy; {new Date().getFullYear()} &nbsp; ArpanGohelPortfolio - All Rights Reserved</h3>
+      </div>   
     </footer>
   );
 };

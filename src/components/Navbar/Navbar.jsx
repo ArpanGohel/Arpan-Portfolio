@@ -9,8 +9,8 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        <img src={getImageUrl("nav/AG.png")}
-        alt="logo" className={styles.logo} height={80} width={120} />
+        <img src={getImageUrl("nav/logo-transparent-png.png")}
+        alt="logo" className={styles.logo} height={100} width={400} />
       </a>
       <div className={styles.menu}>
         <img

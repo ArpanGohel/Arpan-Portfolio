@@ -1,37 +1,42 @@
 @import "../../vars.css";
 
-.container {
+.container {  
   color: var(--color-text);
   margin-top: 120px;
-  margin-left: 5px;
   background-color: var(--color-secondary);
   display: flex;
-  flex-direction: row;
+  direction: row;
   justify-content: space-evenly;
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
 }
 
-.contactform {
-  margin: 2rem;
-  display: flex;
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.contactform { 
   color: var(--color-bg);
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 90vw;
-  max-width: 60rem;
 }
 
 .name, .email, .msg {
+  
   font-size: 30px;
   font-weight: 550;
   letter-spacing: 1px;
   width: 100%;
-  max-width: 35rem;
-  margin: 0.5rem;
-  margin-right: 50%;
+  max-width: 32rem;
+  margin: 0.7rem;
+  margin-right: 100%;
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.5rem;
@@ -47,27 +52,14 @@
   border: none;
   border-radius: 0.5rem;
   margin: 2rem;
-  margin-right: 50%;
+  align-content: center;
+  align-items: center;
   padding: 0.75rem 3.5rem;
 }
 
-.text h2 {
-  font-size: 80px;
-  font-weight: 700;
-  letter-spacing: 4px;
-  margin-right: 450px;
-}
-
-.text p {
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
 
 .links {
   display: flex;
-  margin-top: 40px;
-  margin-right: auto;
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
@@ -77,7 +69,7 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 20px
+  gap: 20px;
 }
 
 .link a {
@@ -88,10 +80,24 @@
   letter-spacing: 1.5px;
 }
 
-@media screen and (max-width: 830px) {
+.text h3 {
+  
+  font-weight: 100;
+  letter-spacing: 1px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1060px) {
   .container {
     flex-direction: column;
     gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .contactform {
@@ -99,20 +105,18 @@
     gap: 5px;
   }
 
-  .text {
+  .name, .email, .msg, .submitBtn {
+    
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    margin-left: 8%;
   }
 
   .links {
     align-items: center;
   }
 
-  .name, .email, .msg, .submitBtn {
-    flex-direction: column;
-    margin-right: 20%;
-    align-items: flex-start;
+  .text h3 {
+    display: flex;
+    align-items: center;
   }
 }
