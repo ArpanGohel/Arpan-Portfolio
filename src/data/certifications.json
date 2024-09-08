@@ -3,7 +3,7 @@
     "role": "Agile Job Simulation on Forage",
     "organisation": "JPMorgan Chase & Co.",
     "startDate": "July, 2024",
-    "experiences": [
+    "description": [
       "Drafted eight user stories using Trello and prioritized them by estimating the relative level of effort required",
       "Ran the Scrum team’s daily standup to effectively plan the day and energize the team members",
       "Conducted a sprint review to gather feedback on the Scrum’s work and a sprint retrospective to align on opportunities for improvement in future sprints"
@@ -14,7 +14,7 @@
     "role": "Software Development Job Simulation on Forage",
     "organisation": "Datacom",
     "startDate": "July, 2024",
-    "experiences": ["Completed a simulation focussed on how the software development team at Datacom approaches their work",
+    "description": ["Completed a simulation focussed on how the software development team at Datacom approaches their work",
     "Reviewed a web application and planned for future improvements",
     "Identified the root cause of bugs and implemented a fix to improve the application"],
     "imageSrc": "history/datacom.png"
@@ -24,7 +24,7 @@
       "organisation": "Verizon",
       "startDate": "June, 2024",
       "certificate": "history/VerizonCertificate.pdf",
-      "experiences": ["Completed a job simulation involving building a hypothetical new VPN product for Verizon’s Cloud Computing team",
+      "description": ["Completed a job simulation involving building a hypothetical new VPN product for Verizon’s Cloud Computing team",
       "Used command line Python to test whether Verizon’s VPN met the cloud-native traits, i.e. redundancy, resiliency and least-privilege",
       "Researched approaches to achieve application security and communicated insights in a PowerPoint Presentation."],
       "imageSrc": "history/verizon.png"
