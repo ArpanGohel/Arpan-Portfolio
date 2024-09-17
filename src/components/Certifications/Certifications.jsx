@@ -28,7 +28,10 @@ export const Certifications = () => {
                     {certificationItem.description.map((description, id) => {
                       return <li key={id}>{description}</li>;
                     })}
-                    
+                    <div> 
+                    <a href= {`${certificationItem.certificate}`} target="_blank" rel="noopener noreferrer">
+                    View Certification </a>
+                    </div> 
                 </ul>
                 </div>
               </li>
