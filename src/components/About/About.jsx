@@ -1,14 +1,16 @@
+
 import React from 'react'
 import { getImageUrl } from '../../utils';
 import styles from "./About.module.css";
-import Pdf from "../../../assets/about/Diploma_Certificate.pdf"
+import Pdf1 from "../../../assets/about/Diploma_Certificate.pdf"
+import Pdf2 from "../../../assets/about/Resume.pdf"
 
 export const About = () => {
   return (
   <section className={styles.container} id="about">
     <h2 className={styles.title}>About</h2>
     <div className={styles.content}>
-        <img src= {getImageUrl("about/aboutImage.png")} alt='Laptop Image' className={styles.aboutImage} />
+        <img src= {getImageUrl("about/aboutImg.png")} alt='Laptop Image' className={styles.aboutImage} />
         <ul className={styles.aboutItems}>
             <li className={styles.aboutItem}>
                 <div className={styles.aboutItemText}>
@@ -23,11 +25,15 @@ export const About = () => {
                         <p>
                             I hold a Diploma in Software Engineering Technician from Centennial College, Toronto ON with 4.05 GPA.
                         </p>
-                        <p>Please&nbsp;
-                        <a href= {Pdf}>
-                            click here
+                        <p> Please view my &nbsp;
+                        <a href= {Pdf1}>
+                            Graduation Certificate (PDF)
                         </a>
-                        &nbsp;to view my Graduation Certificate.
+                        &nbsp;and &nbsp;
+                        <a href= {Pdf2}>
+                            Resume (PDF)
+                        </a>
+                        &nbsp;to learn more about my qualifications and achievements. 
                         </p>
                 </div>
             </li>
