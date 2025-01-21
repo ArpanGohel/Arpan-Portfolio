@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import styles from "./Contact.module.css";
@@ -22,18 +23,17 @@ export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <h2>Let's Connect</h2>
-        <p>Feel free to reach out!</p>
+        <h2>Get in Touch</h2>
       </div>
       <div>
         <form className={styles.contactform} ref={form} onSubmit={sendEmail}>
-          <input type="text" className={styles.name} placeholder="Your Name" name="from_name" />
-          <input type="email" className={styles.email} placeholder="Your Email" name="from_email"/>
-          <textarea className={styles.msg} name="message" rows="5" placeholder="Your Message" />
+          <input type="text" className={styles.name} placeholder="Name" name="from_name" />
+          <input type="email" className={styles.email} placeholder="Email" name="from_email"/>
+          <textarea className={styles.msg} name="message" rows="5" placeholder="Message" />
           <button  type="submit" value="send" className={styles.submitBtn}>Submit</button>
         </form>
       </div>
-     
+     <div>
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
@@ -44,14 +44,14 @@ export const Contact = () => {
             src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/in/a-g009">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/agohel09">LinkedIn</a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
           <a href="https://github.com/ArpanGohel">GitHub</a>
         </li>
       </ul>  
-      <br></br>
+      </div>
       <div className={styles.text}>
       <h3>Copyright &copy; {new Date().getFullYear()} &nbsp; ArpanGohelPortfolio - All Rights Reserved</h3>
       </div>   
