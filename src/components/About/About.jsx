@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 
 import React from 'react'
 import { getImageUrl } from '../../utils';
 import styles from "./About.module.css";
 import Pdf1 from "../../../assets/about/Diploma_Certificate.pdf"
-import Pdf2 from "../../../assets/about/Resume.pdf"
+import Pdf2 from "../../../assets/about/Arpan_SDE.pdf"
 
 export const About = () => {
   return (
@@ -15,7 +16,7 @@ export const About = () => {
         <ul className={styles.aboutItems}>
             <li className={styles.aboutItem}>
                 <div className={styles.aboutItemText}>
-                    <h3>As a recent software engineering graduate, I’m passionate about turning code into 
+                    <h3>As a Software Engineering graduate, I’m passionate about turning code into 
                         functional and user-friendly applications. While I may not have years of 
                         professional experience, my enthusiasm for learning and problem-solving drives me forward.</h3>
                 </div>

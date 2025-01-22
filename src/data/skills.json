@@ -1,6 +1,6 @@
 [
     {
-      "title": "HTML",
+      "title": "HTML5",
       "imageSrc": "skills/html.png"
     },
     {
@@ -12,11 +12,11 @@
       "imageSrc": "skills/js.png"
     },
     {
-      "title": "React",
+      "title": "React.js",
       "imageSrc": "skills/react.png"
     },
     {
-      "title": "Node",
+      "title": "Node.js",
       "imageSrc": "skills/node.png"
     },
     {
@@ -40,7 +40,7 @@
       "imageSrc": "skills/jira.png"
     },
     {
-      "title": "Agile",
+      "title": "Agile Concepts",
       "imageSrc": "skills/agile.png"
     },
     {

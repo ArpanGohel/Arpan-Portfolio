@@ -12,8 +12,7 @@ export const Hero = () => {
         <h1 className={styles.title}>Hi, I'm Arpan</h1>
         <p className={styles.description}>Welcome to my Portfolio site!</p>
         <p className={styles.description}>
-          I'm a Tech Enthusiast & Recent Software Engineering Grad | 
-          Ready to Contribute and Grow in a Dynamic Team Environment
+          I'm a Tech Enthusiast & a Software Engineering Grad ready to contribute and grow in a Dynamic Team Environment
            by translating my Academic Excellence into Real-World Solutions.
         </p>
        {/*<a href="mailto:gohel.arpan@gmail.com" className={styles.contactBtn}>
