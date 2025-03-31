@@ -4,8 +4,8 @@
 import React from 'react'
 import { getImageUrl } from '../../utils';
 import styles from "./About.module.css";
-import Pdf1 from "../../../assets/about/Diploma_Certificate.pdf"
-import Pdf2 from "../../../assets/about/Arpan_SDE.pdf"
+import Pdf2 from "../../../assets/about/Diploma_Certificate.pdf"
+import Pdf1 from "../../../assets/about/Arpan_SDE.pdf"
 
 export const About = () => {
   return (
@@ -29,11 +29,11 @@ export const About = () => {
                         </p>
                         <p> Please view my &nbsp;
                         <a href= {Pdf1}>
-                            Graduation Certificate (PDF)
+                            Resume (PDF)
                         </a>
                         &nbsp;and &nbsp;
                         <a href= {Pdf2}>
-                            Resume (PDF)
+                            Graduation Certificate (PDF)
                         </a>
                         &nbsp;to learn more about my qualifications and achievements. 
                         </p>

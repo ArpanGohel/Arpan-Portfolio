@@ -1,5 +1,23 @@
 [
   {
+    "role": "IT Help Desk for Beginners",
+    "organisation": "LinkedIn",
+    "startDate": "Mar, 2025",
+    "certificate": "/IT_HelpDesk.pdf",
+    "description": ["Completed course - IT Help Desk for Beginners by LinkedIn", 
+    "Top skills covered during this learning includes Technical Support and Help Desk support with basic understanding of troubleshooting and ticketing system."],
+    "imageSrc": "certifications/linkedIn.png"
+  },
+  {
+    "role": "Career Essentials in Generative AI Learning Path",
+    "organisation": "Microsoft and LinkedIn",
+    "startDate": "Sept, 2024",
+    "certificate": "/GenerativeAI_Certificate.pdf",
+    "description": ["Completed the learning path - Career Essentials in Generative AI by Microsoft and LinkedIn", 
+    "Top skills covered during this learning path includes Computer Ethics, Artificial Intelligence (AI) and Generative AI "],
+    "imageSrc": "certifications/linkedIn.png"
+  },
+  {
     "role": "Agile Job Simulation on Forage",
     "organisation": "JPMorgan Chase & Co.",
     "startDate": "July, 2024",
@@ -30,14 +48,5 @@
       "Used command line Python to test whether Verizon’s VPN met the cloud-native traits, i.e. redundancy, resiliency and least-privilege",
       "Researched approaches to achieve application security and communicated insights in a PowerPoint Presentation."],
       "imageSrc": "certifications/verizon.png"
-  },
-    {
-      "role": "Career Essentials in Generative AI Learning Path",
-      "organisation": "Microsoft and LinkedIn",
-      "startDate": "Sept, 2024",
-      "certificate": "/GenerativeAI_Certificate.pdf",
-      "description": ["Completed the learning path - Career Essentials in Generative AI by Microsoft and LinkedIn", 
-      "Top skills covered during this learning path includes Computer Ethics, Artificial Intelligence (AI) and Generative AI "],
-      "imageSrc": "certifications/linkedIn.png"
-    }
+  }
   ]
